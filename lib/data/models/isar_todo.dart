@@ -26,4 +26,7 @@ class TodoIsar {
       ..text = todo.text
       ..isCompleted = todo.isCompleted;
   }
+
+  @override
+  String toString() => 'Todo(id: $id, title: $text, completed: $isCompleted)';
 }
